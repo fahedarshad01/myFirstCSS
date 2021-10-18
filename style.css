@@ -1,0 +1,69 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Roboto', sans-serif;;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  color: hotpink;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;;
+  /* border-bottom: 5px outset purple; */
+}
+
+#RoundedUnderline {
+  background: transparent;
+  height: 10px;
+  border-radius: 10px;
+  box-shadow: 0 50px 0 0 purple;
+  margin-bottom: 60px;
+  
+}
+
+h2 {
+  font-size: 1.5em;
+  color: purple;
+}
+
+.job-title {
+  color: purple;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+a:link,
+a:visited {
+  color: #fb6542;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(242, 167, 245);
+}
+
+a:active {
+  color: blueviolet;
+}
+
+ul {
+    background-color: transparent;
+    border: 5px solid purple;
+    padding: 25px;
+}
+
+.rcorners2 {
+  border-radius: 25px;
+  color: purple;
+  border: 2px solid purple;
+  padding: 15px 50px 15px 30px;
+  width: 150px;
+  background-position: center;
+  transition: background 0.8s;
+}
+
+.rcorners2:hover{
+  background:purple radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  color: white;
+}
